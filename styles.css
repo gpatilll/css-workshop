@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+/* is the best practice while starting any css file */
+
+/* first selector is tag selector */
+/* .name for class selectors
+#name for id selectors */
+.xyz{
+    width: 80%;
+    background-color: black;
+    color: white;  
+    /* is used to specify color of text */
+}
+
+/* box model */
+/* margin */
+div{
+   margin: 10px 20px 30px 10px; 
+   /* clockwise direction  */
+
+}
+/* border */
+div{
+    border: 5px burlywood solid;
+    border-style: dashed;  
+    /* whenever u mention styles the most recent style will be dominant */
+}
+
+/* padding */
+div{
+    padding: 80px;
+}
+
+/* background image properties */
+
+body{
+    background-color: antiquewhite;
+    background-image: url(https://images.unsplash.com/photo-1698402178229-863420a8ecf6?auto=format&fit=crop&q=80&w=411&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position: bottom;
+
+}
+button{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 10px white solid;
+    border-radius: 8px;
+    /* border radius specifies the curvature of the border */
+}
+
+/* pseudo selectors */
+/* basically they are a special type of selectors which perform a specific action when interacted with */
+
+button:hover{
+    background-color: blueviolet;
+    border-radius: 100px;
+}
+p:hover{
+    color:brown;
+    border-bottom: 2px white solid;
+}
+
+/* flex box */
+
+/* is used to align various items on a screen . 2 main types are align items(for vertical) and justify content (for width alignment) */
+
+
+
+
+
